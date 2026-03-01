@@ -6,7 +6,7 @@ title: Arshi Bansal
 ## About Me
 
 
-![Profile Picture]({{ "/assets/profile-picture.png" | relative_url }})
+![Macadamia nut cracker process, calculations, and final](/assets/profile-picture.png){: width="700px" }
  
 My name is Arshi Bansal, and I am a Mechanical Engineering student at Cornell University.
 
