@@ -16,7 +16,7 @@ description              : Your Name - Projects and CV
 url: "https://cornell-mae-ug.github.io"
 baseurl: "/sp26-portfolio-ab3325"
 # Theme and Style
-theme: jekyll-theme-minimal
+remote_theme: mmistakes/minimal-mistakes
 color_scheme: light # light/default, dark, or aqua
 
 sass:
