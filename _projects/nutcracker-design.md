@@ -25,7 +25,7 @@ Design a handheld nutcracker capable of cracking a macadamia nut using average h
 
 **FBDs and Calculations of Device:**
 Shows initial and exploded FBDs, as well as calculations, and lastly FBD of final device with dimensions.
-![Macadamia nut cracker process, calculations, and final](/sp26-portfolio-ab3325/assets/images/macadamia-nutcracker.png)
+![Macadamia nut cracker process, calculations, and final]({{ site.baseurl }}/assets/images/macadamia-nutcracker.png)
 
 **Usability Discussion:**
 The manual nutcracker achieves a mechanical advantage of 7. This multiplies the user's input force sufficiently enough to crack a macademia nut. The 180 mm handle length is within typical nutcracker size ranges and provides adequate leverage for more adults however, it does fail in the following scenarios: not ideal for children, sudden force release may pich fingers, and upon cracking shell fragments may shatter. Thus I advise it to be used by an adult, over the sink or over something to catch the shell fragments, as otherwise it is practical for household use.
