@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: Arshi Bansal
 ---
 
 ## About Me
@@ -10,4 +10,4 @@ title: <Your Name>
  
 My name is Arshi Bansal, and I am a Mechanical Engineering student at Cornell University.
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+Take a look at [my projects]({{ "/projects/" | relative_url }}) and my [CV]({{ "/cv/" | relative_url }}).
