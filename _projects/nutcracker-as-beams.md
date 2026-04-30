@@ -2,7 +2,7 @@
 layout: project
 title: Nutcracker — Flexible Handle Analysis
 description: Tool Design Project
-technologies: [None]
+technologies: [Book appendix for aluminum metal properties and ChatGPT for help with some analysis.]
 image: /assets/images/macadamia-nutcracker.png
 ---
 
@@ -64,7 +64,5 @@ Chosen design:
 
 Aluminium was chosen over steel (heavier for the same stiffness).
 **Part c) Final Drawing:**
-Shows the flexible handle as a cantilever beam with shear and moment diagrams, deflected shape, and hollow rectangular cross-section detail.
+Shows the flexible handle as a beam with shear and moment diagrams, and deflected shape..
 ![Flexible handle beam analysis]({{ site.baseurl }}/assets/images/nutcracker_beam.png)
-
-**Technologies Used:** Book Appendix for aluminum values, and ChatGPT for help with analysis.
