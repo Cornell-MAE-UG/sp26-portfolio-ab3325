@@ -2,7 +2,7 @@
 layout: project
 title: Nutcracker — Flexible Handle Analysis
 description: Tool Design Project
-technologies: [Book appendix for aluminum metal properties and ChatGPT for help with some analysis.]
+technologies: Book appendix for aluminum metal properties and ChatGPT for help with some analysis.
 image: /assets/images/macadamia-nutcracker.png
 ---
 
