@@ -40,10 +40,7 @@ Bending moment M(x):
 
 The maximum bending moment magnitude occurs at **x = 25mm**, where the shear force changes sign. This is the location of greatest curvature and highest bending stress. The maximum elastic deflection, however, occurs at the free end (x = 180mm), since deflection accumulates along the full length of the beam from the fixed support.
 
-To find deflection, the moment equation M(x) is integrated twice using M = EI·d²y/dx², applying boundary conditions y(0) = 0 and dy/dx(0) = 0 (fixed at pivot). The maximum deflection is at x = 180mm.
-
-**FBDs and Shear/Moment Diagrams:**
-![Shear and moment diagram for flexible handle]({{ site.baseurl }}/assets/images/nutcracker-shear-moment.png)
+To find deflection, the moment equation M(x) is integrated twice using M = EI·d²y/dx², applying boundary conditions y(0) = 0 and dy/dx(0) = 0 (fixed at pivot). The maximum deflection is at x = 180mm. This can all be seen in the picture.
 
 **Part b) Beam Design:**
 
@@ -68,4 +65,4 @@ Chosen design:
 Aluminium was chosen over steel (heavier for the same stiffness).
 **Part c) Final Drawing:**
 Shows the flexible handle as a cantilever beam with shear and moment diagrams, deflected shape, and hollow rectangular cross-section detail.
-![Flexible handle beam bending drawing]({{ site.baseurl }}/assets/images/nutcracker-beam.png)
+![Flexible handle beam analysis]({{ site.baseurl }}/assets/images/nutcracker_beam.png)
