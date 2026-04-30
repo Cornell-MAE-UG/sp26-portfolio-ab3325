@@ -67,4 +67,4 @@ Aluminium was chosen over steel (heavier for the same stiffness).
 Shows the flexible handle as a cantilever beam with shear and moment diagrams, deflected shape, and hollow rectangular cross-section detail.
 ![Flexible handle beam analysis]({{ site.baseurl }}/assets/images/nutcracker_beam.png)
 
-**Technologies Used** Book Appendix for aluminum values, and ChatGPT for help with analysis.
+**Technologies Used:** Book Appendix for aluminum values, and ChatGPT for help with analysis.
