@@ -13,8 +13,8 @@ This analysis builds on the original nutcracker design. In that project, a lever
 The handles are no longer assumed to be rigid. They are now modeled as beams which bend due to the combined action of forces from the nut and from the actuator. Only the transverse components of these forces are considered.
 
 **Assumptions:**
-- Each handle is modeled as a cantilever beam, fixed at the pivot (x = 0)
-- Only force components transverse (perpendicular) to the beam are considered
+- Each handle is modeled as a beam, fixed at the pivot (x = 0)
+- Only force components perpendicular to the beam are considered
 - Uniform cross-section along the full 180mm handle length
 - The pin joint acts as a perfect fixed support
 - Small deflections only
@@ -38,7 +38,7 @@ Bending moment M(x):
 - From x = 25mm to x = 0, M continues to change with slope +1800 N/mm
 - At x = 0mm (pivot): M = −46,500 + 1800 × 25 = −1,500 N·mm
 
-The maximum bending moment magnitude occurs at **x = 25mm**, where the shear force changes sign. This is the location of greatest curvature and highest bending stress. The maximum elastic deflection, however, occurs at the free end (x = 180mm), since deflection accumulates along the full length of the beam from the fixed support.
+The maximum bending moment magnitude occurs at **x = 25mm**, where the shear force changes sign. This is the location of the highest bending stress. The maximum elastic deflection occurs at the free end (x = 180mm), since deflection builds up along the full length of the beam from the fixed support.
 
 To find deflection, the moment equation M(x) is integrated twice using M = EI·d²y/dx², applying boundary conditions y(0) = 0 and dy/dx(0) = 0 (fixed at pivot). The maximum deflection is at x = 180mm. This can all be seen in the picture.
 
@@ -55,7 +55,7 @@ Solving for the minimum required EI, and choosing a cross-section that provides 
 The most mass-efficient cross-section places material as far from the neutral axis as possible, maximizing I for a given area. A hollow rectangular section achieves this more efficiently than a solid section.
 
 Chosen design:
-- Material: **Aluminium 6061-T6** (E = 69 GPa, ρ = 2700 kg/m³, Sy = 270 MPa)
+- Material: **Aluminium** (E = 69 GPa, ρ = 2700 kg/m³, Sy = 270 MPa)
 - Cross-section: Hollow rectangle, 12mm × 24mm outer, wall thickness t = 1.5mm
 - Second moment of area I = (bh³ − b_i·h_i³) / 12 ≈ 1.07 × 10⁻⁸ m⁴
 - Maximum deflection δ ≈ 3.4mm < 3.6mm ✓
@@ -66,3 +66,5 @@ Aluminium was chosen over steel (heavier for the same stiffness).
 **Part c) Final Drawing:**
 Shows the flexible handle as a cantilever beam with shear and moment diagrams, deflected shape, and hollow rectangular cross-section detail.
 ![Flexible handle beam analysis]({{ site.baseurl }}/assets/images/nutcracker_beam.png)
+
+**Technologies Used** Book Appendix for aluminum values, and ChatGPT for help with analysis.
